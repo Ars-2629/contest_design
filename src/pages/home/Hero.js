@@ -2,9 +2,9 @@ import { useEffect,useState } from 'react';
 
 export  function Hero() {
     const [index,setIndex] = useState(0);
-    const [products,setProducts] = useState([]);
+    const [products,setProducts] = useState(JSON.parse(localStorage.getItem('productList')) || []);
 
-    
+    localStorage.setItem('productList',JSON.stringify(products));
 
     useEffect(()=>{
         const fetchProducts = async ()=>{

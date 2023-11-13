@@ -6,6 +6,7 @@ import { AboutUs } from './AboutUs';
 import { Subscription } from './Subscription';
 import { ContactUs } from './ContactUs';
 export function HomePage() {
+  document.title = "Audio Visual Distributors"
   return (
     <div>
       <Search/>
