@@ -1,0 +1,32 @@
+{
+    "products":[
+        {
+            "id":101,
+            "pic":"/assets/images/img1.jpg"
+        },
+        {
+            "id":102,
+            "pic":"/assets/images/img2.jpg"
+        },
+        {
+            "id":103,
+            "pic":"/assets/images/img3.jpg"
+        },
+        {
+            "id":104,
+            "pic":"/assets/images/img4.jpg"
+        },
+        {
+            "id":105,
+            "pic":"/assets/images/img5.jpg"
+        },
+        {
+            "id":106,
+            "pic":"/assets/images/img6.jpg"
+        },
+        {
+            "id":107,
+            "pic":"/assets/images/img7.jpg"
+        }
+    ]
+}
